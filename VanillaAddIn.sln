@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanillaAddIn", "VanillaAddIn\VanillaAddIn.csproj", "{D874E185-08FE-48C5-BADE-0FE84060C978}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{288265D6-3A52-46A9-9B15-2BAD1B9F3C02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C8487FD-BDC3-4006-93F5-647BCA3CC7BC}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.MD = Readme.MD
+		regkeys.reg = regkeys.reg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

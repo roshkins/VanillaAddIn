@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CLASSES_ROOT\AppID\[Your app’s GUID]]
+“DllSurrogate”=”"
+ 
+[HKEY_CLASSES_ROOT\CLSID\[Your app’s GUID]]
+“AppID”=”[Your app’s GUID]”
+ 
+[HKEY_CURRENT_USER\Software\Classes\AppID\[Your app’s GUID]]
+“DllSurrogate”=”"
+ 
+[HKEY_CURRENT_USER\Software\Classes\CLSID\[Your app’s GUID]]
+“AppID”=”[Your app’s GUID]”
+ 
+[HKEY_LOCAL_MACHINE\Software\Classes\AppID\[Your app’s GUID]]
+“DllSurrogate”=”"
+ 
+[HKEY_LOCAL_MACHINE\Software\Classes\CLSID\[Your app’s GUID]]
+“AppID”=”[Your app’s GUID]”
+ 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Office\OneNote\AddIns\[Your app’s ProgId]]
+“Description”=”Press for a Hello World!”
+“FriendlyName”=”Hello World!”
+“LoadBehavior”=dword:00000003
